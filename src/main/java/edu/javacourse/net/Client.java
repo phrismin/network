@@ -35,7 +35,7 @@ class SimpleClient implements Runnable {
       writer.flush();
 
       String readLine = reader.readLine();
-      System.out.println("Client got " + readLine);
+      System.out.println("Client got: " + readLine);
 
     } catch (IOException e) {
       e.printStackTrace(System.out);
